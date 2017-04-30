@@ -72,16 +72,6 @@ class CategoryDetailVc: UITableViewController, UITextFieldDelegate ,SelectImageD
         
     }
     
-    override func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
-        if indexPath.section == 1 {
-            return indexPath
-        } else {
-            return nil
-        }
-    }
-    
-
-    
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
 
